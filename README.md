@@ -62,3 +62,13 @@ source /home/akoubaa/catkin_ws/devel/setup.bash
 export TURTLEBOT3_MODEL=waffle
 
 export SVGA_VGPU10=0
+
+## Starting TurtleBot3 
+
+`roslaunch turtlebot3_gazebo turtlebot3_house.launch`
+
+`roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/nihal/catkin_ws/src/ros_course_part2/src/topic03_map_navigation/tb3map/tb3_house_map.yaml`
+
+## View frames error
+
+Simply adding the .decode('utf-8') to m = r.search(vstr.decode('utf-8')) fixed it.
