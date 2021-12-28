@@ -72,3 +72,5 @@ export SVGA_VGPU10=0
 ## View frames error
 
 Simply adding the .decode('utf-8') to m = r.search(vstr.decode('utf-8')) fixed it.
+
+`roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch`
