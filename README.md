@@ -63,6 +63,18 @@ export TURTLEBOT3_MODEL=waffle
 
 export SVGA_VGPU10=0
 
+## Starting Gazebo Environment
+
+`roslaunch turtlebot3_gazebo turtlebot3_world.launch`
+
+## Starting RVIZ
+
+`roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch`
+
+## Starting Teleop for Turtlebot3
+
+`roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
+
 ## Starting TurtleBot3 
 
 `roslaunch turtlebot3_gazebo turtlebot3_house.launch`
